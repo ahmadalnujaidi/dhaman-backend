@@ -46,7 +46,7 @@ export class PaymentsController {
                   }
                 },
                 source: { id: "src_all" },
-                redirect: { url: "https://dhaman.app" },
+                redirect: { url: "https://www.dhaman.app" },
                 post: {url: `${baseUrl}/users/premium/${userId}`}
               })
           });
